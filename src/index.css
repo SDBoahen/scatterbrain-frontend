@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: #9bfcb0;
+  background: repeating-radial-gradient(circle farthest-corner at center center, #9bfcb0 0%, #9bfcb0 10%, rgba(155,252,176,0.58) 30%, #9bfcb0 45%, #00fff1 99%);
+  background: -webkit-repeating-radial-gradient(circle farthest-corner at center center, #9bfcb0 0%, #9bfcb0 10%, rgba(155,252,176,0.58) 30%, #9bfcb0 45%, #00fff1 99%);
+  background: -moz-repeating-radial-gradient(circle farthest-corner at center center, #9bfcb0 0%, #9bfcb0 10%, rgba(155,252,176,0.58) 30%, #9bfcb0 45%, #00fff1 99%);
+    /* background-color: #9bfcb0; */
+  width: 100vw;
+  height: 100vh;
+
 }
 
 code {
